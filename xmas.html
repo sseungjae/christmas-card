@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
     <title>2020년을 보내며</title>
     <style>
-        body{
+        body {
             background-color: #9b070f;
+            font-family: 'Poor Story', cursive;
         }
 
         .envelope {
@@ -15,17 +19,42 @@
             background-image: url('https://pngimg.com/uploads/envelope/envelope_PNG18366.png');
             background-size: cover;
             background-position: center;
-            margin: 200px auto 0 auto;;
+            margin: 200px auto 0 auto;
+            ;
         }
 
-        .envelope-msg{
+        .envelope-msg {
             color: white;
             text-align: center;
         }
+
+        .letter-close {
+            display: none;
+        }
+
+        .rtan {
+          background-color: white;
+          width: 200px;
+          height: 200px;
+
+          background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/rtan.gif');  
+          background-size: cover;
+          background-position-x: center;
+          margin: 100px auto 0 auto;
+          border-radius: 50%;
+          border: 5px solid white;
+          box-shadow: 0px 0px 10px 0px white;
+        }
     </style>
 </head>
+
 <body>
-    <div class="envelope"></div>
-    <h2 class="envelope-msg">봉투를 열어봐</h2>
+    <div class="letter-close">
+        <div class="envelope"></div>
+        <h2 class="envelope-msg">봉투를 열어봐</h2>
+    </div>
+
+    <div class="rtan"></div>
 </body>
+
 </html>
